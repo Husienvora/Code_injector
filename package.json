@@ -1,0 +1,28 @@
+{
+  "name": "@husien/code_injector",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "clinic": "clinic doctor -- node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "./Generatedapis"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Husienvora/Code_injector.git"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "hygen": "^6.2.11"
+  }
+}
