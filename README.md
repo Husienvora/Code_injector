@@ -1,7 +1,6 @@
 # @husien/code_injector
 
 `@husien/code_injector` is a simple npm package that allows you to inject code into JavaScript files based on specified tags within the file. With this package, you can easily insert code snippets or make modifications to existing JavaScript files without manually editing them.<br>
-The reason for me making this package was that I couldn't find any easy injection methods. I hope this can serve as one stop shop for injection. Also thinking about adding Mocha templates, Jest Templates so that we can write test's on runtime and also execute them.
 
 ## Installation
 
